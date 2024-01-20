@@ -32,7 +32,7 @@ exec /opt/AmneziaVPN/service/./AmneziaVPN-service.sh
 ```shell
 sudo chmod u+x run
 ```
-Отлично, осталось создать ссылку на только что созданную нами
+Отлично, осталось создать ссылку на только что созданную нами службу
 ```shell
 sudo ln -s /etc/runit/sv/amneziavpn /etc/runit/runsvdir/default/
 ```
